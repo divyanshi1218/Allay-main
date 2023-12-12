@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f8fefe33 !important;
+}
+
+header {
+  cursor: default;
+  color: #2c3e50 !important;
+}
+
+main {
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+footer {
+  margin-bottom: 2vh;
+  margin-left: 200px;
+}
+
+.addArticleContainer {
+  width: 98%;
+  min-height: 75vh;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.topBar {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.navbarContainer {
+  display: grid;
+  grid-template-columns: 70% 11% 8% 10%;
+}
+
+.projectTitle {
+  font-family: "Permanent Marker", cursive !important;
+  cursor: pointer;
+  color: white;
+}
+
+.headingTitle {
+  font-family: "Libre Baskerville", serif;
+}
+
+.navbarValue {
+  padding-left: 7%;
+  padding-top: 4%;
+  cursor: pointer;
+  font-size: 110% !important;
+}
+
+.navbarValue:hover {
+  border-bottom: 2px solid #2c3e50 !important;
+}
+
+.homeUserDetails {
+  display: grid;
+  grid-template-columns: 15% 60% 25%;
+}
+
+.authorImageAvatar {
+  cursor: pointer;
+  margin-left: 40%;
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.userProfileProto {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50%;
+}
+
+.blogUserDetails {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.homeScreenBlogText {
+  cursor: pointer;
+  position: relative;
+  height: 220px;
+}
+
+.homeBlogText {
+  overflow-y: auto;
+  height: 200px;
+}
+
+.seeMore {
+  width: 100%;
+  height: 5px;
+  text-align: center;
+}
+
+.homeBlogFooter {
+  font-size: 140%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.fa-user-circle {
+  font-size: 350%;
+  color: #2c3e50;
+}
+
+.addNotes {
+  position: fixed;
+  border-radius: 50% !important;
+  bottom: 7%;
+  right: 2%;
+}
+
+.button-plus {
+  border-radius: 50% !important;
+}
+
+.plus-sign {
+  font-size: 300%;
+  color: white;
+}
+
+.myblogsHeader {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.textArea {
+  resize: none;
+  height: 300px !important;
+  width: 100% !important;
+}
+
+.questionText {
+  margin: 1% 25%;
+}
+
+.questionArea {
+  resize: none;
+  height: 300px !important;
+  width: 100% !important;
+  text-align: center;
+}
+
+.moodImage {
+  height: 140px;
+  width: 140px;
+}
+
+.moodButtons {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.publishOptions {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.publicBlogs {
+  margin-left: 20%;
+  max-width: 700px;
+  margin-right: 3%;
+}
+
+.googleLoginButton {
+  margin-top: 50px;
+  background-color: #1da35c !important;
+  color: white !important;
+}
+
+.textButton {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: #09944a !important;
+  color: white !important;
+}
+
+.loginPage {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.signupPage {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.addNotesTitle {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.userImage {
+  height: 170px;
+  width: 170px;
+}
+
+.userData {
+  padding-left: 15%;
+}
+
+.fa-edit {
+  font-size: 130%;
+}
+
+.privateUserDetails {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.userBlogImage {
+  margin-left: 50%;
+  width: 140px;
+  height: 140px;
+}
+
+.publicBlogFooter {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.blogByIdDetails {
+  padding-left: 18% !important;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #2c3e50;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2c3e50;
+  outline: 1px solid #2c3e50;
+}
+
+::-webkit-scrollbar {
+  height: 10px; /* height of horizontal scrollbar */
+  width: 10px; /* width of vertical scrollbar */
+  border: 1px solid #2c3e50;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  /* background: #eeeeee; */
+  box-shadow: inset 0 0 6px #b0b0b0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+  /* background-color: #2c3e50; */
+}
+
+.questionData {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.questionPhoto {
+  width: 300px;
+  height: 300px;
+}
+
+.questionPhoto1 {
+  width: 340px;
+  height: 140px;
+}
+
+.userQuestionText {
+  font-size: 150%;
+}
+
+.userQuestionList {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.questionByIdDetails {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.volunteerTextReply {
+  margin: 3% 8%;
+  height: 260px;
+  width: 90%;
+  color: #2c3e50;
+  overflow-x: none;
+  overflow-y: scroll;
+}
+
+.questionInfoDateLang {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.rating span {
+  margin: 0.1rem;
+  cursor: pointer;
+}
+
+.volunteerControlOptions {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.repliedChatLink {
+  margin: 2% 25%;
+}
+
+.volunteerControlLink {
+  cursor: pointer;
+  width: 80%;
+  height: 180px;
+  margin: 1% 10%;
+}
+
+.volunteerControlButton {
+  bottom: 0;
+}
+
+.activeQuestionData {
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.activeQuestionAdditional {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+.questionText {
+  font-size: 150%;
+}
+
+.welcomePageLogo {
+  margin-left: 35%;
+  height: 50vh;
+  width: 55vh;
+  color: black;
+}
+
+.selectorForms {
+  margin: 0% 28%;
+}
+
+.selectorQuestionData {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.answerHeading {
+  font-size: 1.5rem;
+}
+
+.answerText {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 120%;
+  }
+  .navbar-brand {
+    font-size: 120% !important;
+  }
+  .plus-sign {
+    font-size: 100%;
+  }
+  .addNotes {
+    bottom: 1%;
+    right: 0.5%;
+  }
+  .fa-user-circle {
+    font-size: 280%;
+  }
+  .homeUserDetails {
+    grid-template-columns: 15% 50% 35%;
+  }
+  .textArea {
+    resize: none;
+    height: 350px !important;
+    width: 235px !important;
+  }
+  .myblogsHeader {
+    font-size: 80%;
+  }
+  .publicBlogs {
+    margin-left: 2%;
+    max-width: 700px;
+  }
+  .loginPage {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  .signupPage {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  .authorImageAvatar {
+    margin-left: 0%;
+    margin-right: 4%;
+    height: 50px !important;
+    width: 48px !important;
+  }
+  .blogUserDetails {
+    font-size: 75%;
+  }
+  .topBar {
+    width: 100%;
+  }
+
+  .addNotesTitle {
+    grid-template-columns: 60% 40%;
+  }
+
+  .userImage {
+    height: 95px;
+    width: 95px;
+  }
+
+  .userData {
+    padding-left: 9%;
+  }
+
+  main {
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  footer {
+    margin-left: 0px;
+  }
+  .privateUserDetails {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .userBlogImage {
+    margin-left: 10%;
+    width: 100px;
+    height: 100px;
+  }
+  .blogByIdDetails {
+    padding: 2% !important;
+  }
+  ::-webkit-scrollbar {
+    height: 1px; /* height of horizontal scrollbar ← You're missing this */
+    width: 1px; /* width of vertical scrollbar */
+    border: 1px solid #d5d5d5;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #b0b0b0;
+  }
+  .questionText {
+    margin: 1% 5%;
+  }
+  .userQuestionList {
+    grid-template-columns: 72% 28%;
+  }
+  .userQuestionText {
+    font-size: 110%;
+  }
+  .questionByIdDetails {
+    grid-template-columns: 100%;
+  }
+  .headingTitle {
+    font-size: 150%;
+  }
+  .volunteerControlLink {
+    cursor: pointer;
+    width: 100%;
+    height: 220px;
+    margin: 1%;
+  }
+  .activeQuestionData {
+    grid-template-columns: 70% 30%;
+  }
+  .welcomePageLogo {
+    margin-left: 0;
+    padding-left: 5%;
+    height: 50vh;
+  }
+  .selectorForms {
+    margin: 0%;
+  }
+  .selectorQuestionData {
+    grid-template-columns: 75% 25%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .homeUserDetails {
+    grid-template-columns: 22% 52% 26%;
+  }
+  .questionPhoto1 {
+    width: 370px;
+    height: 140px;
+  }
+  .selectorForms {
+    margin: 0% 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .welcomePageLogo {
+    margin-left: 0%;
+    padding-left: 0;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .welcomeText {
+    padding-top: 50vh;
+    margin-left: 0;
+    padding-left: 0;
+    color: white;
+  }
+  .selectorForms {
+    margin: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .publicBlogs {
+    margin-left: 5%;
+    max-width: 700px;
+    margin-right: 3%;
+  }
+  .topBar {
+    width: 100%;
+  }
+  .questionData {
+    grid-template-columns: 100%;
+  }
+  .selectorForms {
+    margin: 0% 10%;
+  }
+  .selectorQuestionData {
+    grid-template-columns: 70% 30%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .moodButtons-1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .selectorForms {
+    margin: 0% 23%;
+  }
+  .loginPage {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  .signupPage {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+}
